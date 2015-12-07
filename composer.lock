@@ -9,17 +9,20 @@
     "packages": [
         {
             "name": "epfremme/collections",
-            "version": "v1.0.0",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/epfremmer/collections.git",
-                "reference": "077d2f12008fe88c29afcff00e85bd9204666040"
+                "reference": "52dd3ec29811bd3947cdd8b5540ee0ea42b7e670"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/epfremmer/collections/zipball/077d2f12008fe88c29afcff00e85bd9204666040",
-                "reference": "077d2f12008fe88c29afcff00e85bd9204666040",
+                "url": "https://api.github.com/repos/epfremmer/collections/zipball/52dd3ec29811bd3947cdd8b5540ee0ea42b7e670",
+                "reference": "52dd3ec29811bd3947cdd8b5540ee0ea42b7e670",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
             },
             "require-dev": {
                 "phpunit/phpunit": "^5.1",
@@ -43,7 +46,7 @@
                 }
             ],
             "description": "PHP Collection Classes",
-            "time": "2015-12-07 00:33:01"
+            "time": "2015-12-07 05:41:32"
         }
     ],
     "packages-dev": [
