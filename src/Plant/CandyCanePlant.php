@@ -90,4 +90,17 @@ class CandyCanePlant implements PlantInterface
 
         return $this;
     }
+
+    /**
+     * Convert plant to string
+     *
+     * @return string
+     */
+    public function __toString()
+    {
+        return sprintf('CandyCanePlant { CandyCanesPerWeek = %s, HasBred = %s}',
+            $this->getYield(),
+            $this->hasBred() ? 'true' : 'false'
+        );
+    }
 }

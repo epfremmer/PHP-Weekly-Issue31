@@ -75,4 +75,11 @@ class CandyCanePlantTest extends \PHPUnit_Framework_TestCase
 
         $this->assertTrue($plant->hasBred());
     }
+
+    public function testToString()
+    {
+        $plant = new CandyCanePlant(5, true);
+
+        $this->assertEquals('CandyCanePlant { CandyCanesPerWeek = 5, HasBred = true}', (string) $plant);
+    }
 }
